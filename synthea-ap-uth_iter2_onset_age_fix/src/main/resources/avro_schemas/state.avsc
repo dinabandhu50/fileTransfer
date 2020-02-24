@@ -1,0 +1,10 @@
+{
+    "type": "record",
+    "namespace": "synthea",
+    "name": "state",
+    "fields": [
+        { "name": "subject", "type": "string" },
+        { "name": "name", "type": "string" },
+        { "name": "value", "type": "string" }
+    ]
+}

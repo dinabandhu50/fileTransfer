@@ -1,0 +1,17 @@
+{
+    "type": "record",
+    "namespace": "synthea",
+    "name": "encounter",
+    "fields": [
+        { "name": "identifier", "type": "string" },
+        { "name": "subject", "type": "string" },
+        { "name": "practitioner", "type": "string" },
+		{ "name": "name", "type": "string" },
+        { "name": "type", "type": "string" },
+        { "name": "start", "type": "string"},
+		{ "name": "end", "type": "string"},
+        { "name": "code", "type": "string" },
+		{ "name": "display", "type": "string" },
+        { "name": "system", "type": "string" }
+    ]
+}

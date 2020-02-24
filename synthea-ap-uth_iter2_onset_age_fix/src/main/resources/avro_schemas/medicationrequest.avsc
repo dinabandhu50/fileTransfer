@@ -1,0 +1,23 @@
+{
+    "type": "record",
+    "namespace": "synthea",
+    "name": "medicationrequest",
+    "fields": [
+        { "name": "identifier", "type": "string" },
+        { "name": "subject", "type": "string" },
+        { "name": "practitioner", "type": "string" },
+        { "name": "encounter", "type": "string" },
+        { "name": "name", "type": "string" },
+        { "name": "type", "type": "string" },
+        { "name": "start", "type": "string" },
+		{ "name": "end", "type": "string"},
+        { "name": "code", "type": "string" },
+        { "name": "display", "type": "string" },
+        { "name": "system", "type": "string" },
+        { "name": "cost", "type": "string" },
+        { "name": "dispenses", "type": "int" },
+        { "name": "total_cost", "type": "string" },
+        { "name": "reason_code", "type": "string" },
+        { "name": "reason_description", "type": "string" }
+    ]
+}

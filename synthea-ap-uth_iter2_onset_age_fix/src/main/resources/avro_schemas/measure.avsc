@@ -1,0 +1,12 @@
+{
+    "type": "record",
+    "namespace": "synthea",
+    "name": "measure",
+    "fields": [
+        { "name": "subject", "type": "string" },
+        { "name": "year", "type": "string" },
+        { "name": "qol", "type": "string" },
+        { "name": "qaly", "type": "string" },
+        { "name": "daly", "type": "string" }
+    ]
+}

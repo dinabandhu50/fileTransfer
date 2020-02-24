@@ -1,0 +1,17 @@
+{
+    "type": "record",
+    "namespace": "synthea",
+    "name": "observation",
+    "fields": [
+        { "name": "subject", "type": "string" },
+        { "name": "encounter", "type": "string" },
+        { "name": "name", "type": "string" },
+        { "name": "type", "type": "string" },
+		{ "name": "start", "type": "string"},
+        { "name": "value", "type": "string" },
+        { "name": "unit", "type": "string" },
+        { "name": "code", "type": "string" },
+        { "name": "display", "type": "string" },
+        { "name": "system", "type": "string" }
+    ]
+}

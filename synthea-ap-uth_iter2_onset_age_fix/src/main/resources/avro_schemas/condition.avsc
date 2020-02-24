@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "namespace": "synthea",
+    "name": "condition",
+    "fields": [
+        { "name": "subject", "type": "string" },
+        { "name": "onsetage", "type": "int" },
+        { "name": "name", "type": "string" },
+        { "name": "type", "type": "string" },
+		{ "name": "onsetdatetime", "type": "string" },
+        { "name": "abatementdatetime", "type": "string" },
+        { "name": "code", "type": "string" },
+		{ "name": "display", "type": "string" },
+        { "name": "system", "type": "string" }
+    ]
+}

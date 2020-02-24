@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "namespace": "synthea",
+    "name": "procedure",
+    "fields": [
+        { "name": "date", "type": "string" },
+        { "name": "subject", "type": "string" },
+        { "name": "encounter", "type": "string" },
+        { "name": "code", "type": "string" },
+		{ "name": "display", "type": "string" },
+        { "name": "cost", "type": "string" },
+		{ "name": "reason_code", "type": "string" },
+		{ "name": "reason_description", "type": "string" }
+    ]
+}
