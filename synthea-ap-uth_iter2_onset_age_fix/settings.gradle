@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'synthea'
+rootProject.name = 'synthea-ap-uth_iter2_onset_age_fix'
